@@ -14,6 +14,8 @@ export function PeopleDetails() {
             }).catch((err) => {
             console.log(err);
         });
+
+
     }, [id]);
 
     return (
